@@ -1,27 +1,26 @@
 # PicnicProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+# Install nvm
+https://github.com/coreybutler/nvm-windows/releases
 
-## Development server
+Download the nvm-setup.zip file
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Once nvm has been installed, open a command line and run the following command to install node:
 
-## Code scaffolding
+nvm install 12.13.0
+nvm use 12.13.0
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Install Angular
+npm install -g @angular/cli@11.0.7
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Install project dependencies
+Once node and angular are installed, open a command line in the root directory of the project and run
 
-## Running unit tests
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+# Start the application
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The application should be now available on localhost:4200

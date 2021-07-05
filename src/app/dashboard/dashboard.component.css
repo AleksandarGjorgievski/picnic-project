@@ -1,0 +1,23 @@
+.post-image {
+    width: 100%;
+}
+
+.full-border {
+    border:1px solid rgb(133, 125, 125);
+}
+
+.side-border {
+    border-left: 1px solid rgb(133, 125, 125);
+    border-right: 1px solid rgb(133, 125, 125);
+}
+.text-right {
+    text-align: right;
+}
+
+.view-post-button {
+    margin: 10px 5px 5px 10px;
+}
+
+.post-footer {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,16 @@
+<div class="flex one two-600" style="padding: 20px 25px">
+    <ng-container *ngFor="let post of posts">
+        <div class="full full-border">
+            <h2>{{post.title}}</h2>
+        </div>
+        <div class="full third-600 side-border">
+            <img class="post-image" src="{{post.img}}" />
+        </div>
+        <div class="full two-third-600 side-border">{{post.description}}</div>
+        <div class="full full-border text-right post-footer" style="padding-right: 15px; padding-top:10px">
+            {{post.likes}} <i class="fas fa-thumbs-up"></i>
+            {{post.dislikes}} <i class="fas fa-thumbs-down"></i>
+        </div>
+    </ng-container>
+    
+</div>

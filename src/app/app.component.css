@@ -1,0 +1,30 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-text {
+    vertical-align: bottom;
+}
+
+nav {
+    background-color:#b1d0ee;
+}
+
+nav > div {
+    background-color: #b1d0ee;
+}
+
+.card>*, .modal .overlay ~ *>*{
+    display:flex;
+}
+
+.dropimage {
+    margin-left: 10px;
+}

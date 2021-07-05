@@ -1,0 +1,19 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" autocomplete="disabled">
+    <div class="flex one three-600">
+        <div class="none third-600"></div>
+        <div class="full third-600">
+            <input formControlName="username" placeholder="Username" type="text" [ngClass]="{'is-invalid': submitted && f.username.errors}" autocomplete="disabled">
+        </div>
+        <div class="none third-600"></div>
+        <div class="none third-600"></div>
+        <div class="full third-600">
+            <input formControlName="password" placeholder="Password" type="password" [ngClass]="{'is-invalid': submitted && f.password.errors}" autocomplete="disabled">
+        </div>
+        <div class="none third-600"></div>
+        <div class="none third-600"></div>
+        <div class="full third-600">
+            <button name="submit" type="submit" class="button">Login</button>
+        </div>
+    </div>
+    
+</form>
